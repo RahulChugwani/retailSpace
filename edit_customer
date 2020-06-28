@@ -1,0 +1,42 @@
+<?php 
+//require "session_check.php";
+
+$con = new mysqli("localhost","root","","shop_inventory");
+
+$id = $_GET['id'];
+
+
+$query = "SELECT * FROM customer WHERE id='$id'";
+
+$result = $con->query($query);
+$data = $result->fetch_object();
+
+ ?>
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Form</title>
+</head>
+<body>
+	<h3>Edit Form</h3>
+	<form action="update.php" method="post">
+		<input type="hidden" name="id" value="<?php echo $data->id?>">
+		<p>
+			<input type="text" name="customername" placeholder="Customer_name" value="<?php echo $data->customername;?>">
+		</p>
+		<p>
+			<input type="email" name="email" placeholder="Email" value="<?php echo $data->email;?>">
+		</p>
+		<p>
+			<input type="phoneno" name="phoneno" placeholder="PhoneNo" value="<?php echo $data->phoneno;?>">
+		</p>
+		<p>
+			<input type="text" name="address" placeholder="Address" value="<?php echo $data->address;?>">
+		</p>
+		<p>
+			<input type="submit" value="Update">
+		</p>
+	</form>
+</body>
+</html>

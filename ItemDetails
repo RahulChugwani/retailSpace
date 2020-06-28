@@ -1,0 +1,41 @@
+ <?php 
+require "session_check.php";
+
+$con = new mysqli("localhost", "root", "", "webakruti");
+
+$query = "SELECT * FROM users";
+$result = $con->query($query);
+
+  ?>
+  <table border="1" cellspacing="5" cellpadding="5" rules="all">
+  	<tr>
+  		<td>Srno</td>
+  		<td>Username</td>
+  		<td>Email</td>
+  		<td>Password</td>
+  		<td>Address</td>
+  		<td>Action</td>
+  		<td>Delete</td>
+  	</tr>
+
+<?php 
+while ($data = $result->fetch_assoc()) {
+	echo "<tr>";
+		echo "<td>".$data['id']."</td>";
+		echo "<td>".$data['username']."</td>";
+		echo "<td>".$data['email']."</td>";
+		echo "<td>".$data['password']."</td>";
+		echo "<td>".$data['address']."</td>";
+		echo "<td><a href=edit.php?id=".$data['id'].">Edit</td>";
+		echo "<td><a href=delete.php?id=".$data['id'].">Delete</td>";
+
+
+
+	echo "</tr>";
+
+}
+
+ ?>
+  </table>
+<p><a href="logout.php">Logout</a></p>
+ 

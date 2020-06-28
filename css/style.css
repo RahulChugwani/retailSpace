@@ -1,0 +1,71 @@
+
+.loginContainer{
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    margin-top: 10%;
+    margin-left : 33%;
+    background-color:#D0D3D4;
+}
+
+.signinbox{ 
+  /*background-color: red ;*/
+  /*padding: 40px;
+  margin: 150px auto 0 auto;*/
+
+  }
+
+.header {
+  overflow: hidden;
+  background-color: #34495E;
+  padding: 20px 10px;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color : white;
+}
+
+.header a:hover {
+  background-color:dodgerblue;
+  color: white;
+}
+
+.header a.active {
+  color: white;
+}
+
+.header-right {
+  float: right;
+  color : white;
+  margin-right :30px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+	margin-right :50px;
+  }
+}
+
+.chart-container{
+  
+}
+
+
+

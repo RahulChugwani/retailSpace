@@ -18,13 +18,16 @@ Tools: XAMPP, Visual Studio code.
 # Detail Description: 
 1. Added the login portal to platform where users can signup and signin.
 2. The platform is divided into 3 main sections:
+
 a. Customer Section:
       1. Retail Owner can add new customers and their details while generating the bill. Owner can edit and delete the customers details if required.
       2. In this section, owner can view the analytics of customer and can have analysis of customer segment based on area.
       3. During billing, functionality of Paid or Unpaid amount has been added. (which is most common in Indian reatilers).
+      
 b. Inventory Section:
       1. Here, Owner can add new inventory/item and can edit their quantity and delete details also.
       2. Inventory analysis is also provided in this section where can he can manage his whole inventory and see which how much items are remaining.
+      
 c. Sales Section:
       1.In this section, owner will be able to see the sales analytics chart.
       2.Different analytics charts are used here to show the daily sales,Items on high sale, etc.

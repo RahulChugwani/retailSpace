@@ -31,4 +31,5 @@ b. Inventory Section:
 c. Sales Section:
       1.In this section, owner will be able to see the sales analytics chart.
       2.Different analytics charts are used here to show the daily sales,Items on high sale, etc.
+      
 3. As it is a web based portal, owner can login from anywhere and can keep the track of its sales and manage their shop easily.

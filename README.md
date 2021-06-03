@@ -1,11 +1,12 @@
 # retailSpace
-This was my first full-stack project where I build the whole application from frontend to backend while using dynamic data of customer and inventories.
+This was my first full-stack project where I build the application from frontend to backend while using dynamic data of customer and inventories.
 Its a web application platform where multiple retail shop owners can signup and manage their daily sales, customer analytics and shop inventories effectively.
+User can manage potential customers, generated sales and can view detailed inventory transactions by using smart graphs/tables.
 The platform provides them different functionalities from daily sales, inventories to having customer and sales analytics in the app itself.
 
 # Motivation: 
 The main motive behind this project was to create such application for MSME retailers where they can manage their all sales,inventory realted work on one platform easily and effectively.
-By having the record of all their items and customers on the didgital platform, it will be very easy for them to keep track of dfferent items and their sales.
+By having the record of all their items and customers on the digital platform, it will be very easy for them to keep track of dfferent items and their sales.
 In India, most of the retail owners spend their so much of time on keeping record of their inventory and items instead of utilising that time on increasing sales and understanding customer behaviour.
 By saving this time, they can increase their sales and can reach out to more customers.  
 
